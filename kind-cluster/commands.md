@@ -114,7 +114,7 @@
 
  - kubectl port-forward -n argocd service/argocd-server 8443:443 &
   -or if not working port forward forward por with another way
-   $kubectl pot-forward svc/argocd-server  -n argocd 31950:443  --adress=0.0.0.0 &
+   $kubectl port-forward svc/argocd-server  -n argocd 31950:443  --address=0.0.0.0 &
    $forwarding from 0.0.0.0:31950  ->8080
   
   ```
