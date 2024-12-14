@@ -135,6 +135,10 @@
 - Deploy Kubernetes dashboard:
   ```bash
   kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.7.0/aio/deploy/recommended.yaml
+
+  apply dashboard-adminuser.yml in kubernetes-dashboard namespace
+
+  fort farward service fro this namespace and acess it put token from below command
   ```
 
 - Create a token for dashboard access:
